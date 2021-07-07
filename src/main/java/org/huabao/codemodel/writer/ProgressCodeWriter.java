@@ -77,11 +77,11 @@ public class ProgressCodeWriter extends FilterCodeWriter {
     }
     
     private void report(JPackage pkg, String fileName) {
-        if(pkg.isUnnamed()) progress.println(fileName);
-        else
-            progress.println(
-                pkg.name().replace('.',File.separatorChar)
-                    +File.separatorChar+fileName);
+//        if(pkg.isUnnamed()) progress.println(fileName);
+//        else
+//            progress.println(
+//                pkg.name().replace('.',File.separatorChar)
+//                    +File.separatorChar+fileName);
     }
 
 }

@@ -237,10 +237,7 @@ public abstract class JExpr {
      * Escapes the given string, then surrounds it by the specified
      * quotation mark. 
      */
-    public static String quotify(char quote, String s) {System.out.println(quote + ":\t" + s);
-
-
-
+    public static String quotify(char quote, String s) {
         int n = s.length();
         StringBuilder sb = new StringBuilder(n + 2);
         sb.append(quote);
